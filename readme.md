@@ -1,8 +1,8 @@
-##DV-LAE是什么?
+## DV-LAE是什么?
 
 DV-LAE是一个基于 Python 语言开发的工具包，旨在通过对称函数分析和筛选势函数训练数据，实现对多样性的统计、筛选和可视化。该工具包能够帮助用户分析样本数据的多样性，同时有效节省训练成本。
 
-##Requirements
+## Requirements
 ```
 ase(atomic simulation environment)
 scipy (library for scientific computing)
@@ -11,7 +11,7 @@ scikit-learn (machine learning library)
 tqdm (progress bar library)
 ```
 
-##Example
+## Example
 
 使用`example`中的数据进行分析并进行精简数据。如下示例所示：
 ```python
@@ -26,7 +26,7 @@ tqdm (progress bar library)
 	
     运行结束后，在对应 functionpath 文件夹中会生成 HTML 文件，用于数据多样性可视化，并生成以 output 开头的文件，包含精简后的数据，用于后续势函数训练等。
 	
-##参数介绍
+## 参数介绍
 
 ```
 functionpath：对称函数文件目录
