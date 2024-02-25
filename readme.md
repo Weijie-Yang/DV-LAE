@@ -12,7 +12,7 @@ tqdm (progress bar library)
 ```
 
 ## Example
-使用`example`[点击下载](https://pan.baidu.com/s/1r50GmBZH65Q7W2G5Jv8adg?pwd=5xwa)中的数据进行分析并进行精简数据。如下示例所示：
+使用`example`中的数据（[点击下载](https://pan.baidu.com/s/1r50GmBZH65Q7W2G5Jv8adg?pwd=5xwa)）进行分析并进行精简数据。如下示例所示：
 ```python
     form DV_LAE import DV_LAE
     functionpath = r'example/function.data'
