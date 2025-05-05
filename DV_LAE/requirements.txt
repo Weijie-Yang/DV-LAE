@@ -1,7 +1,0 @@
-ase==3.22.1
-numpy==1.26.3
-plotly==5.18.0
-scikit-learn==1.4.0
-scipy==1.12.0
-tqdm==4.66.1
-
