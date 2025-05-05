@@ -3,7 +3,7 @@
 This directory contains sample input files for testing the Molecular Feature Dimensionality Reduction scripts.
 [sample data](https://drive.google.com/drive/folders/1-dQ-Igwxy2YwtvoGy5jaYRVF0BeQ3n7Q?usp=sharing)
 
-*   `function.data`: A sample feature file containing 5 structures (3x H2O, 1x Si, 1x Si+H2O) with 3 arbitrary feature values per atom.
+*   `function.data`: A sample feature file containing feature values for each atom.
 *   `input.data`: A sample atomic structure file in n2p2 format, corresponding exactly to the structures in `function.data`. This file is used by the main script (if specified) to color points in the output plot based on chemical composition.
 
 ## How to Run
@@ -22,11 +22,11 @@ python ../DV_LAE.py --feature function.data --structure input.data --outdir outp
 *   `--feature Example/function.data`: Specifies the path to the sample feature file.
 *   `--structure Example/input.data`: Specifies the path to the sample structure file for coloring.
 *   `--outdir Example/output`: Creates an `output` subdirectory within `Example` to store the results (plot, .npy files).
-*   `--bins 5`: Uses 5 histogram bins (low value suitable for the small range in example features).
+*   `--bins 25`: Uses 25 histogram bins (low value suitable for the small range in example features).
 *   `--mode tsne`: Uses t-SNE for dimensionality reduction.
 *   `--dist_mode 2`: Uses distance mode 2 (binary difference per bin).
 
-Running this command should generate output files (like `...coords_2d.npy`, `...coords_2d.csv`, and an `.html` plot) inside the `Example/output/` directory. The plot should show 5 points, potentially clustered based on composition (H2O vs Si vs Si+H2O).
+Running this command should generate output files (like `...coords_2d.npy`, `...coords_2d.csv`, and an `.html` plot) inside the `Example/output/` directory. 
 
 Now you have a self-contained example that users can run to understand the script's basic functionality and input/output formats.
 
