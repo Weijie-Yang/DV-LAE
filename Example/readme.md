@@ -8,7 +8,7 @@ This directory contains sample input files for testing the Molecular Feature Dim
 
 ## How to Run
 ### Running the Dimensionality Reduction Analysis (`DV_LAE.py`)
-Execute the `DV_LAE.py` script from the **parent directory** (the one containing `main.py` itself) and point it to these example files using the command-line arguments.
+Execute the `DV_LAE.py` script from the **parent directory** (the one containing `DV_LAE.py` itself) and point it to these example files using the command-line arguments.
 
 **Example Command:**
 
