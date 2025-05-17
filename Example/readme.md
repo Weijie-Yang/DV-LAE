@@ -1,6 +1,6 @@
 # Example Data Files
 
-This directory contains sample input files for testing the Molecular Feature Dimensionality Reduction scripts.
+This directory contains sample input files for testing the Molecular Feature Dimensionality Reduction scripts (using the α-Fe/H system dataset as an example).
 [sample data](https://drive.google.com/drive/folders/1-dQ-Igwxy2YwtvoGy5jaYRVF0BeQ3n7Q?usp=sharing)
 
 *   `function.data`: A sample feature file containing feature values for each atom.
