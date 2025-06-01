@@ -19,6 +19,7 @@ DV-LAE (Diversity Visualizer of Local Atomic Environments) is a toolkit develope
 *   Saves plots as standalone HTML files.
 *   Saves intermediate data (distance vectors, 2D coordinates) as NumPy (`.npy`) and CSV (`.csv`) files.
 *   Configurable via command-line arguments.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J8WpREFhcHY" title="DV-LAE Methodology Implementation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## File Structure
 ```
@@ -137,5 +138,3 @@ The script generates the following files in the specified output directory (--ou
 4. 2D Coordinates (.csv): A CSV text file containing the 2D coordinates (Dim1, Dim2). (e.g., ..._coords_2d.csv)
 5. Grouping Info (.npy, optional): If structures were grouped by composition, a NumPy file saving the dictionary that maps composition strings to structure indices. (e.g., ..._grouping.npy)
 
---
-[Watch DV - LAE Tutorial Video](https://youtu.be/J8WpREFhcHY)
