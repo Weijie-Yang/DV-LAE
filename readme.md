@@ -136,3 +136,6 @@ The script generates the following files in the specified output directory (--ou
 3. 2D Coordinates (.npy): A NumPy binary file containing the calculated 2D coordinates after dimensionality reduction. (e.g., ..._coords_2d.npy)
 4. 2D Coordinates (.csv): A CSV text file containing the 2D coordinates (Dim1, Dim2). (e.g., ..._coords_2d.csv)
 5. Grouping Info (.npy, optional): If structures were grouped by composition, a NumPy file saving the dictionary that maps composition strings to structure indices. (e.g., ..._grouping.npy)
+
+--
+[Watch DV - LAE Tutorial Video](https://youtu.be/J8WpREFhcHY)
