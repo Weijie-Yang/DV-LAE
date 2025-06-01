@@ -21,7 +21,7 @@ DV-LAE (Diversity Visualizer of Local Atomic Environments) is a toolkit develope
 *   Configurable via command-line arguments.
 
 
-[Watch DV - LAE Tutorial Video](https://youtu.be/J8WpREFhcHY)
+
 
 ## File Structure
 ```
@@ -55,6 +55,9 @@ pip install numpy ase tqdm plotly scikit-learn "umap-learn>=0.5"
 
 ## Usage
 The main script to run the analysis is DV_LAE.py.
+
+[Watch DV - LAE Tutorial Video](https://youtu.be/J8WpREFhcHY)
+
 
 ## Basic Execution
 To run the analysis with default settings (using function.data, input.data in the current directory, comparing to the 1st structure, using t-SNE, 20 bins, and distance mode 2):
