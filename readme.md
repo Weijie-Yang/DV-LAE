@@ -21,7 +21,7 @@ DV-LAE (Diversity Visualizer of Local Atomic Environments) is a toolkit develope
 *   Configurable via command-line arguments.
 
 
-[![DV-LAE 演示视频](https://img.youtube.com/vi/J8WpREFhcHY/maxresdefault.jpg)](https://www.youtube.com/watch?v=J8WpREFhcHY)
+[Watch DV - LAE Tutorial Video](https://youtu.be/J8WpREFhcHY)
 
 ## File Structure
 ```
